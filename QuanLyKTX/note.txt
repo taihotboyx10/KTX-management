@@ -1,0 +1,4 @@
+
+switch tab thì hiển thi alert: "bạn có muốn hủy thay và đóng form này"
+Chưa đóng tab khi switch
+hủy hiệu ứng hover

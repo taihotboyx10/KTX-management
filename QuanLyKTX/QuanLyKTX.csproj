@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CDB6747C-7415-45F6-BB37-99413B6AE8FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuanLyKTX</RootNamespace>
+    <AssemblyName>QuanLyKTX</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.5\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form\StaffInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\StaffInfo.Designer.cs">
+      <DependentUpon>StaffInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\RoomFeeDTO.cs" />
+    <Compile Include="Form\RoomStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\RoomStatus.Designer.cs">
+      <DependentUpon>RoomStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\RoomFee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\RoomFee.Designer.cs">
+      <DependentUpon>RoomFee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\DashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\RoomManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\RoomManagement.Designer.cs">
+      <DependentUpon>RoomManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLConnect\KTXManagementSQLConn.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Form\StudentInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\StudentInfo.Designer.cs">
+      <DependentUpon>StudentInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\StudentUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\StudentUpdate.Designer.cs">
+      <DependentUpon>StudentUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\StudentLeave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\StudentLeave.Designer.cs">
+      <DependentUpon>StudentLeave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\StaffUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\StaffUpdate.Designer.cs">
+      <DependentUpon>StaffUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\StaffSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\StaffSalary.Designer.cs">
+      <DependentUpon>StaffSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\StaffLeave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\StaffLeave.Designer.cs">
+      <DependentUpon>StaffLeave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\StaffList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\StaffList.Designer.cs">
+      <DependentUpon>StaffList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\Constan.cs" />
+    <Compile Include="Util\Validate.cs" />
+    <EmbeddedResource Include="Form\StaffInfo.resx">
+      <DependentUpon>StaffInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\DashBoard.resx">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\RoomFee.resx">
+      <DependentUpon>RoomFee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\RoomManagement.resx">
+      <DependentUpon>RoomManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\RoomStatus.resx">
+      <DependentUpon>RoomStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\StaffSalary.resx">
+      <DependentUpon>StaffSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\StaffUpdate.resx">
+      <DependentUpon>StaffUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\StudentInfo.resx">
+      <DependentUpon>StudentInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\StudentLeave.resx">
+      <DependentUpon>StudentLeave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\StudentUpdate.resx">
+      <DependentUpon>StudentUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form\StaffLeave.resx">
+      <DependentUpon>StaffLeave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\StaffList.resx">
+      <DependentUpon>StaffList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
