@@ -94,5 +94,10 @@ namespace QuanLyKTX
             StaffLeave staffLeave = new StaffLeave();
             staffLeave.ShowDialog();
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
