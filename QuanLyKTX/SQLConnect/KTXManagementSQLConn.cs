@@ -20,7 +20,8 @@ namespace QuanLyKTX
             SqlConnection conn = new SqlConnection(connectionString);
             return conn;
         }
-        
+
+        #region Getdata
         public DataSet GetData(string query)
         {
             SqlConnection conn = setConnection();
@@ -50,8 +51,8 @@ namespace QuanLyKTX
 
             while (reader.Read())//Doc cho den het bang
             {
-                string intValue = reader[0].ToString(); // Lấy giá trị số nguyên từ cột 0
-                roomNos.Add(intValue);
+                string value = reader[0].ToString(); // Lấy giá trị số nguyên từ cột 0
+                roomNos.Add(value);
             }
 
             conn.Close();
@@ -59,9 +60,9 @@ namespace QuanLyKTX
             return roomNos;
         }
 
-        public List<string> GetStdNameInFees(string query)
+        public List<string> GetNameList(string query)
         {
-            List<string> sdtnames = new List<string>();
+            List<string> names = new List<string>();
             SqlConnection conn = setConnection();
             conn.Open();
 
@@ -70,14 +71,16 @@ namespace QuanLyKTX
 
             while (reader.Read())//Doc cho den het bang
             {
-                string intValue = reader[0].ToString(); // Lấy giá trị số nguyên từ cột 0
-                sdtnames.Add(intValue);
+                string value = reader[0].ToString(); // Lấy giá trị từ cột 0
+                names.Add(value);
             }
 
             conn.Close();
 
-            return sdtnames;
+            return names;
         }
+
+        #endregion
 
         #region SetData
         public void SetData(string query, string msg)

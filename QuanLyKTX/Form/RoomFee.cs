@@ -82,7 +82,7 @@ namespace QuanLyKTX
         private void btnFee_Click(object sender, EventArgs e)
         {
             query = "select stdName from fees";
-            List<string> sdtNames = managementSQLConn.GetStdNameInFees(query);
+            List<string> sdtNames = managementSQLConn.GetNameList(query);
 
             //nếu searchedWG == false tức là chưa chọn sv
             if (searchedWG == false)

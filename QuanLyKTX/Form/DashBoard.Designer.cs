@@ -53,9 +53,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label2.ForeColor = System.Drawing.SystemColors.Window;
-            this.label2.Location = new System.Drawing.Point(147, 26);
+            this.label2.Location = new System.Drawing.Point(110, 23);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(169, 33);
+            this.label2.Size = new System.Drawing.Size(140, 27);
             this.label2.TabIndex = 1;
             this.label2.Text = "Dashboard";
             // 
@@ -65,9 +66,10 @@
             this.label1.BackColor = System.Drawing.SystemColors.Info;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(633, 26);
+            this.label1.Location = new System.Drawing.Point(475, 23);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(403, 40);
+            this.label1.Size = new System.Drawing.Size(326, 33);
             this.label1.TabIndex = 2;
             this.label1.Text = "QUẢN LÝ KÝ TÚC XÁ";
             // 
@@ -88,10 +90,10 @@
             this.btnRoomManagement.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnRoomManagement.Image = ((System.Drawing.Image)(resources.GetObject("btnRoomManagement.Image")));
             this.btnRoomManagement.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnRoomManagement.Location = new System.Drawing.Point(111, 110);
-            this.btnRoomManagement.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRoomManagement.Location = new System.Drawing.Point(83, 95);
+            this.btnRoomManagement.Margin = new System.Windows.Forms.Padding(2);
             this.btnRoomManagement.Name = "btnRoomManagement";
-            this.btnRoomManagement.Size = new System.Drawing.Size(205, 45);
+            this.btnRoomManagement.Size = new System.Drawing.Size(154, 39);
             this.btnRoomManagement.TabIndex = 3;
             this.btnRoomManagement.Text = "Quản lý phòng";
             this.btnRoomManagement.Click += new System.EventHandler(this.btnRoomManagement_Click);
@@ -113,10 +115,10 @@
             this.BtnStaffList.HoverState.ForeColor = System.Drawing.Color.Black;
             this.BtnStaffList.Image = ((System.Drawing.Image)(resources.GetObject("BtnStaffList.Image")));
             this.BtnStaffList.ImageSize = new System.Drawing.Size(30, 30);
-            this.BtnStaffList.Location = new System.Drawing.Point(111, 740);
-            this.BtnStaffList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnStaffList.Location = new System.Drawing.Point(83, 641);
+            this.BtnStaffList.Margin = new System.Windows.Forms.Padding(2);
             this.BtnStaffList.Name = "BtnStaffList";
-            this.BtnStaffList.Size = new System.Drawing.Size(266, 45);
+            this.BtnStaffList.Size = new System.Drawing.Size(200, 39);
             this.BtnStaffList.TabIndex = 5;
             this.BtnStaffList.Text = "Danh sách nhân viên";
             this.BtnStaffList.Click += new System.EventHandler(this.BtnStaffList_Click);
@@ -138,10 +140,10 @@
             this.btnStaffSalary.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnStaffSalary.Image = ((System.Drawing.Image)(resources.GetObject("btnStaffSalary.Image")));
             this.btnStaffSalary.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnStaffSalary.Location = new System.Drawing.Point(111, 670);
-            this.btnStaffSalary.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStaffSalary.Location = new System.Drawing.Point(83, 581);
+            this.btnStaffSalary.Margin = new System.Windows.Forms.Padding(2);
             this.btnStaffSalary.Name = "btnStaffSalary";
-            this.btnStaffSalary.Size = new System.Drawing.Size(350, 45);
+            this.btnStaffSalary.Size = new System.Drawing.Size(262, 39);
             this.btnStaffSalary.TabIndex = 6;
             this.btnStaffSalary.Text = "Thanh toán lương cho nhân viên";
             this.btnStaffSalary.Click += new System.EventHandler(this.btnStaffSalary_Click);
@@ -163,10 +165,10 @@
             this.btnStaffUpdateDelete.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnStaffUpdateDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnStaffUpdateDelete.Image")));
             this.btnStaffUpdateDelete.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnStaffUpdateDelete.Location = new System.Drawing.Point(111, 600);
-            this.btnStaffUpdateDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStaffUpdateDelete.Location = new System.Drawing.Point(83, 520);
+            this.btnStaffUpdateDelete.Margin = new System.Windows.Forms.Padding(2);
             this.btnStaffUpdateDelete.Name = "btnStaffUpdateDelete";
-            this.btnStaffUpdateDelete.Size = new System.Drawing.Size(301, 45);
+            this.btnStaffUpdateDelete.Size = new System.Drawing.Size(226, 39);
             this.btnStaffUpdateDelete.TabIndex = 7;
             this.btnStaffUpdateDelete.Text = "Cập nhật - Xóa nhân viên";
             this.btnStaffUpdateDelete.Click += new System.EventHandler(this.btnStaffUpdateDelete_Click);
@@ -188,10 +190,10 @@
             this.btnAddStaff.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnAddStaff.Image = ((System.Drawing.Image)(resources.GetObject("btnAddStaff.Image")));
             this.btnAddStaff.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnAddStaff.Location = new System.Drawing.Point(111, 530);
-            this.btnAddStaff.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAddStaff.Location = new System.Drawing.Point(83, 459);
+            this.btnAddStaff.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddStaff.Name = "btnAddStaff";
-            this.btnAddStaff.Size = new System.Drawing.Size(221, 45);
+            this.btnAddStaff.Size = new System.Drawing.Size(166, 39);
             this.btnAddStaff.TabIndex = 8;
             this.btnAddStaff.Text = "Thêm nhân viên";
             this.btnAddStaff.Click += new System.EventHandler(this.btnAddStaff_Click);
@@ -213,10 +215,10 @@
             this.btnRoomLeaving.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnRoomLeaving.Image = ((System.Drawing.Image)(resources.GetObject("btnRoomLeaving.Image")));
             this.btnRoomLeaving.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnRoomLeaving.Location = new System.Drawing.Point(111, 460);
-            this.btnRoomLeaving.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRoomLeaving.Location = new System.Drawing.Point(83, 399);
+            this.btnRoomLeaving.Margin = new System.Windows.Forms.Padding(2);
             this.btnRoomLeaving.Name = "btnRoomLeaving";
-            this.btnRoomLeaving.Size = new System.Drawing.Size(250, 45);
+            this.btnRoomLeaving.Size = new System.Drawing.Size(188, 39);
             this.btnRoomLeaving.TabIndex = 9;
             this.btnRoomLeaving.Text = "Sinh viên trả phòng";
             this.btnRoomLeaving.Click += new System.EventHandler(this.btnRoomLeaving_Click);
@@ -238,10 +240,10 @@
             this.btnRoomState.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnRoomState.Image = ((System.Drawing.Image)(resources.GetObject("btnRoomState.Image")));
             this.btnRoomState.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnRoomState.Location = new System.Drawing.Point(111, 390);
-            this.btnRoomState.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRoomState.Location = new System.Drawing.Point(83, 338);
+            this.btnRoomState.Margin = new System.Windows.Forms.Padding(2);
             this.btnRoomState.Name = "btnRoomState";
-            this.btnRoomState.Size = new System.Drawing.Size(316, 45);
+            this.btnRoomState.Size = new System.Drawing.Size(237, 39);
             this.btnRoomState.TabIndex = 10;
             this.btnRoomState.Text = "Tất cả trạng thái phòng SV";
             this.btnRoomState.Click += new System.EventHandler(this.btnRoomState_Click);
@@ -263,10 +265,10 @@
             this.btnRoomFee.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnRoomFee.Image = ((System.Drawing.Image)(resources.GetObject("btnRoomFee.Image")));
             this.btnRoomFee.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnRoomFee.Location = new System.Drawing.Point(111, 320);
-            this.btnRoomFee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRoomFee.Location = new System.Drawing.Point(83, 277);
+            this.btnRoomFee.Margin = new System.Windows.Forms.Padding(2);
             this.btnRoomFee.Name = "btnRoomFee";
-            this.btnRoomFee.Size = new System.Drawing.Size(266, 45);
+            this.btnRoomFee.Size = new System.Drawing.Size(200, 39);
             this.btnRoomFee.TabIndex = 11;
             this.btnRoomFee.Text = "Thanh toán phí phòng";
             this.btnRoomFee.Click += new System.EventHandler(this.btnRoomFee_Click);
@@ -288,10 +290,10 @@
             this.btnStdUpdateDelete.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnStdUpdateDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnStdUpdateDelete.Image")));
             this.btnStdUpdateDelete.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnStdUpdateDelete.Location = new System.Drawing.Point(111, 250);
-            this.btnStdUpdateDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStdUpdateDelete.Location = new System.Drawing.Point(83, 217);
+            this.btnStdUpdateDelete.Margin = new System.Windows.Forms.Padding(2);
             this.btnStdUpdateDelete.Name = "btnStdUpdateDelete";
-            this.btnStdUpdateDelete.Size = new System.Drawing.Size(283, 45);
+            this.btnStdUpdateDelete.Size = new System.Drawing.Size(212, 39);
             this.btnStdUpdateDelete.TabIndex = 12;
             this.btnStdUpdateDelete.Text = "Cập nhật - Xóa sinh viên";
             this.btnStdUpdateDelete.Click += new System.EventHandler(this.btnStdUpdateDelete_Click);
@@ -313,10 +315,10 @@
             this.btnStudentAdd.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnStudentAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnStudentAdd.Image")));
             this.btnStudentAdd.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnStudentAdd.Location = new System.Drawing.Point(111, 180);
-            this.btnStudentAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStudentAdd.Location = new System.Drawing.Point(83, 156);
+            this.btnStudentAdd.Margin = new System.Windows.Forms.Padding(2);
             this.btnStudentAdd.Name = "btnStudentAdd";
-            this.btnStudentAdd.Size = new System.Drawing.Size(205, 45);
+            this.btnStudentAdd.Size = new System.Drawing.Size(154, 39);
             this.btnStudentAdd.TabIndex = 13;
             this.btnStudentAdd.Text = "Thêm sinh viên";
             this.btnStudentAdd.Click += new System.EventHandler(this.btnStudentAdd_Click);
@@ -338,10 +340,10 @@
             this.btnStaffLeavingWork.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnStaffLeavingWork.Image = ((System.Drawing.Image)(resources.GetObject("btnStaffLeavingWork.Image")));
             this.btnStaffLeavingWork.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnStaffLeavingWork.Location = new System.Drawing.Point(111, 810);
-            this.btnStaffLeavingWork.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStaffLeavingWork.Location = new System.Drawing.Point(83, 702);
+            this.btnStaffLeavingWork.Margin = new System.Windows.Forms.Padding(2);
             this.btnStaffLeavingWork.Name = "btnStaffLeavingWork";
-            this.btnStaffLeavingWork.Size = new System.Drawing.Size(283, 45);
+            this.btnStaffLeavingWork.Size = new System.Drawing.Size(212, 39);
             this.btnStaffLeavingWork.TabIndex = 14;
             this.btnStaffLeavingWork.Text = "Nhân viên đã thôi việc";
             this.btnStaffLeavingWork.Click += new System.EventHandler(this.btnStaffLeavingWork_Click);
@@ -360,12 +362,13 @@
             this.btnLogout.ForeColor = System.Drawing.Color.White;
             this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
             this.btnLogout.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnLogout.Location = new System.Drawing.Point(1315, 26);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLogout.Location = new System.Drawing.Point(959, 23);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(141, 45);
+            this.btnLogout.Size = new System.Drawing.Size(123, 39);
             this.btnLogout.TabIndex = 16;
             this.btnLogout.Text = "Đăng xuất";
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // btnClose
             // 
@@ -381,10 +384,10 @@
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnClose.Location = new System.Drawing.Point(1473, 26);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnClose.Location = new System.Drawing.Point(1094, 23);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(99, 45);
+            this.btnClose.Size = new System.Drawing.Size(85, 39);
             this.btnClose.TabIndex = 18;
             this.btnClose.Text = "Close";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -394,21 +397,21 @@
             this.guna2PictureBox1.BorderRadius = 15;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(467, 110);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(350, 95);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(1109, 764);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(832, 662);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 19;
             this.guna2PictureBox1.TabStop = false;
             // 
             // DashBoard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Turquoise;
-            this.ClientSize = new System.Drawing.Size(1637, 945);
+            this.ClientSize = new System.Drawing.Size(1228, 819);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnLogout);
@@ -425,7 +428,7 @@
             this.Controls.Add(this.btnRoomManagement);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimizeBox = false;
             this.Name = "DashBoard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

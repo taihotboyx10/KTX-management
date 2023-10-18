@@ -94,5 +94,16 @@ namespace QuanLyKTX
             StaffLeave staffLeave = new StaffLeave();
             staffLeave.ShowDialog();
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có muốn thoát chương trình không?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (result == DialogResult.OK)
+            {
+                this.Close();
+                Login login = new Login();
+                login.Show();
+            }
+        }
     }
 }

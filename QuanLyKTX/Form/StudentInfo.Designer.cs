@@ -69,9 +69,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("MS UI Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label2.ForeColor = System.Drawing.SystemColors.Window;
-            this.label2.Location = new System.Drawing.Point(349, 18);
+            this.label2.Location = new System.Drawing.Point(262, 16);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(259, 23);
+            this.label2.Size = new System.Drawing.Size(215, 19);
             this.label2.TabIndex = 2;
             this.label2.Text = "THÔNG TIN SINH VIÊN";
             // 
@@ -80,9 +81,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label4.ForeColor = System.Drawing.SystemColors.Window;
-            this.label4.Location = new System.Drawing.Point(42, 410);
+            this.label4.Location = new System.Drawing.Point(32, 355);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 17);
+            this.label4.Size = new System.Drawing.Size(80, 14);
             this.label4.TabIndex = 5;
             this.label4.Text = "Số điện thoại";
             // 
@@ -91,9 +93,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
-            this.label1.Location = new System.Drawing.Point(42, 110);
+            this.label1.Location = new System.Drawing.Point(32, 95);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 17);
+            this.label1.Size = new System.Drawing.Size(43, 14);
             this.label1.TabIndex = 6;
             this.label1.Text = "CCCD";
             // 
@@ -102,9 +105,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.ForeColor = System.Drawing.SystemColors.Window;
-            this.label3.Location = new System.Drawing.Point(42, 360);
+            this.label3.Location = new System.Drawing.Point(32, 312);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 17);
+            this.label3.Size = new System.Drawing.Size(112, 14);
             this.label3.TabIndex = 7;
             this.label3.Text = "Tên trường đại học";
             // 
@@ -113,9 +117,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label5.ForeColor = System.Drawing.SystemColors.Window;
-            this.label5.Location = new System.Drawing.Point(42, 380);
+            this.label5.Location = new System.Drawing.Point(32, 329);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 17);
+            this.label5.Size = new System.Drawing.Size(0, 14);
             this.label5.TabIndex = 8;
             // 
             // label6
@@ -123,9 +128,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label6.ForeColor = System.Drawing.SystemColors.Window;
-            this.label6.Location = new System.Drawing.Point(42, 310);
+            this.label6.Location = new System.Drawing.Point(32, 269);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(133, 17);
+            this.label6.Size = new System.Drawing.Size(107, 14);
             this.label6.TabIndex = 9;
             this.label6.Text = "Đại chỉ thường trú";
             // 
@@ -134,9 +140,10 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label7.ForeColor = System.Drawing.SystemColors.Window;
-            this.label7.Location = new System.Drawing.Point(42, 260);
+            this.label7.Location = new System.Drawing.Point(32, 225);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(46, 17);
+            this.label7.Size = new System.Drawing.Size(38, 14);
             this.label7.TabIndex = 10;
             this.label7.Text = "Email";
             // 
@@ -145,9 +152,10 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label8.ForeColor = System.Drawing.SystemColors.Window;
-            this.label8.Location = new System.Drawing.Point(42, 210);
+            this.label8.Location = new System.Drawing.Point(32, 182);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(60, 17);
+            this.label8.Size = new System.Drawing.Size(49, 14);
             this.label8.TabIndex = 11;
             this.label8.Text = "Tên mẹ";
             // 
@@ -156,9 +164,10 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label9.ForeColor = System.Drawing.SystemColors.Window;
-            this.label9.Location = new System.Drawing.Point(42, 160);
+            this.label9.Location = new System.Drawing.Point(32, 139);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(67, 17);
+            this.label9.Size = new System.Drawing.Size(54, 14);
             this.label9.TabIndex = 12;
             this.label9.Text = "Tên cha";
             // 
@@ -167,9 +176,10 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label10.ForeColor = System.Drawing.SystemColors.Window;
-            this.label10.Location = new System.Drawing.Point(42, 60);
+            this.label10.Location = new System.Drawing.Point(32, 52);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(106, 17);
+            this.label10.Size = new System.Drawing.Size(84, 14);
             this.label10.TabIndex = 13;
             this.label10.Text = "Tên sinh viên";
             // 
@@ -184,12 +194,13 @@
             this.txtCCCD.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtCCCD.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtCCCD.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCCCD.Location = new System.Drawing.Point(211, 110);
+            this.txtCCCD.Location = new System.Drawing.Point(158, 95);
+            this.txtCCCD.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtCCCD.Name = "txtCCCD";
             this.txtCCCD.PasswordChar = '\0';
             this.txtCCCD.PlaceholderText = "";
             this.txtCCCD.SelectedText = "";
-            this.txtCCCD.Size = new System.Drawing.Size(574, 30);
+            this.txtCCCD.Size = new System.Drawing.Size(430, 26);
             this.txtCCCD.TabIndex = 2;
             this.txtCCCD.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCCCD_KeyPress_1);
             // 
@@ -206,9 +217,10 @@
             this.btnUpdate.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
             this.btnUpdate.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdate.Image")));
-            this.btnUpdate.Location = new System.Drawing.Point(324, 538);
+            this.btnUpdate.Location = new System.Drawing.Point(243, 466);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(119, 36);
+            this.btnUpdate.Size = new System.Drawing.Size(89, 31);
             this.btnUpdate.TabIndex = 18;
             this.btnUpdate.Text = "Cập nhật";
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
@@ -227,9 +239,10 @@
             this.btnClear.ForeColor = System.Drawing.Color.White;
             this.btnClear.Image = ((System.Drawing.Image)(resources.GetObject("btnClear.Image")));
             this.btnClear.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnClear.Location = new System.Drawing.Point(527, 538);
+            this.btnClear.Location = new System.Drawing.Point(395, 466);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(119, 36);
+            this.btnClear.Size = new System.Drawing.Size(89, 31);
             this.btnClear.TabIndex = 18;
             this.btnClear.Text = "Xóa";
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
@@ -239,9 +252,10 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("MS UI Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label11.ForeColor = System.Drawing.SystemColors.Window;
-            this.label11.Location = new System.Drawing.Point(42, 460);
+            this.label11.Location = new System.Drawing.Point(32, 399);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(73, 17);
+            this.label11.Size = new System.Drawing.Size(59, 14);
             this.label11.TabIndex = 19;
             this.label11.Text = "Số phòng";
             // 
@@ -258,9 +272,10 @@
             this.btnClose.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
-            this.btnClose.Location = new System.Drawing.Point(819, 18);
+            this.btnClose.Location = new System.Drawing.Point(614, 16);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(101, 39);
+            this.btnClose.Size = new System.Drawing.Size(76, 34);
             this.btnClose.TabIndex = 24;
             this.btnClose.Text = "Close";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -276,12 +291,13 @@
             this.txtAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAddress.Location = new System.Drawing.Point(211, 310);
+            this.txtAddress.Location = new System.Drawing.Point(158, 269);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.PasswordChar = '\0';
             this.txtAddress.PlaceholderText = "";
             this.txtAddress.SelectedText = "";
-            this.txtAddress.Size = new System.Drawing.Size(574, 30);
+            this.txtAddress.Size = new System.Drawing.Size(430, 26);
             this.txtAddress.TabIndex = 6;
             // 
             // txtEmail
@@ -295,12 +311,13 @@
             this.txtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEmail.Location = new System.Drawing.Point(211, 260);
+            this.txtEmail.Location = new System.Drawing.Point(158, 225);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
             this.txtEmail.PlaceholderText = "";
             this.txtEmail.SelectedText = "";
-            this.txtEmail.Size = new System.Drawing.Size(574, 30);
+            this.txtEmail.Size = new System.Drawing.Size(430, 26);
             this.txtEmail.TabIndex = 5;
             // 
             // txtSchool
@@ -314,12 +331,13 @@
             this.txtSchool.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSchool.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSchool.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSchool.Location = new System.Drawing.Point(211, 360);
+            this.txtSchool.Location = new System.Drawing.Point(158, 312);
+            this.txtSchool.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtSchool.Name = "txtSchool";
             this.txtSchool.PasswordChar = '\0';
             this.txtSchool.PlaceholderText = "";
             this.txtSchool.SelectedText = "";
-            this.txtSchool.Size = new System.Drawing.Size(574, 30);
+            this.txtSchool.Size = new System.Drawing.Size(430, 26);
             this.txtSchool.TabIndex = 7;
             // 
             // txtPhone
@@ -333,12 +351,13 @@
             this.txtPhone.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPhone.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPhone.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPhone.Location = new System.Drawing.Point(211, 410);
+            this.txtPhone.Location = new System.Drawing.Point(158, 355);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.PasswordChar = '\0';
             this.txtPhone.PlaceholderText = "";
             this.txtPhone.SelectedText = "";
-            this.txtPhone.Size = new System.Drawing.Size(574, 30);
+            this.txtPhone.Size = new System.Drawing.Size(430, 26);
             this.txtPhone.TabIndex = 8;
             this.txtPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhone_KeyPress);
             // 
@@ -353,12 +372,13 @@
             this.txtMotherName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMotherName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtMotherName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMotherName.Location = new System.Drawing.Point(211, 210);
+            this.txtMotherName.Location = new System.Drawing.Point(158, 182);
+            this.txtMotherName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtMotherName.Name = "txtMotherName";
             this.txtMotherName.PasswordChar = '\0';
             this.txtMotherName.PlaceholderText = "";
             this.txtMotherName.SelectedText = "";
-            this.txtMotherName.Size = new System.Drawing.Size(574, 30);
+            this.txtMotherName.Size = new System.Drawing.Size(430, 26);
             this.txtMotherName.TabIndex = 4;
             // 
             // txtDadName
@@ -372,12 +392,13 @@
             this.txtDadName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtDadName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtDadName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDadName.Location = new System.Drawing.Point(211, 160);
+            this.txtDadName.Location = new System.Drawing.Point(158, 139);
+            this.txtDadName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtDadName.Name = "txtDadName";
             this.txtDadName.PasswordChar = '\0';
             this.txtDadName.PlaceholderText = "";
             this.txtDadName.SelectedText = "";
-            this.txtDadName.Size = new System.Drawing.Size(574, 30);
+            this.txtDadName.Size = new System.Drawing.Size(430, 26);
             this.txtDadName.TabIndex = 3;
             // 
             // txtStudentName
@@ -391,12 +412,13 @@
             this.txtStudentName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStudentName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtStudentName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtStudentName.Location = new System.Drawing.Point(211, 60);
+            this.txtStudentName.Location = new System.Drawing.Point(158, 52);
+            this.txtStudentName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtStudentName.Name = "txtStudentName";
             this.txtStudentName.PasswordChar = '\0';
             this.txtStudentName.PlaceholderText = "";
             this.txtStudentName.SelectedText = "";
-            this.txtStudentName.Size = new System.Drawing.Size(574, 30);
+            this.txtStudentName.Size = new System.Drawing.Size(430, 26);
             this.txtStudentName.TabIndex = 1;
             // 
             // cboRoomNo
@@ -409,9 +431,10 @@
             this.cboRoomNo.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboRoomNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cboRoomNo.ItemHeight = 30;
-            this.cboRoomNo.Location = new System.Drawing.Point(211, 460);
+            this.cboRoomNo.Location = new System.Drawing.Point(158, 399);
+            this.cboRoomNo.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.cboRoomNo.Name = "cboRoomNo";
-            this.cboRoomNo.Size = new System.Drawing.Size(574, 36);
+            this.cboRoomNo.Size = new System.Drawing.Size(432, 36);
             this.cboRoomNo.TabIndex = 9;
             // 
             // errStudentName
@@ -430,9 +453,10 @@
             // 
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.Color.Red;
-            this.label12.Location = new System.Drawing.Point(117, 464);
+            this.label12.Location = new System.Drawing.Point(88, 402);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(22, 15);
+            this.label12.Size = new System.Drawing.Size(15, 13);
             this.label12.TabIndex = 49;
             this.label12.Text = "※";
             // 
@@ -440,9 +464,10 @@
             // 
             this.label13.AutoSize = true;
             this.label13.ForeColor = System.Drawing.Color.Red;
-            this.label13.Location = new System.Drawing.Point(96, 113);
+            this.label13.Location = new System.Drawing.Point(72, 98);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(22, 15);
+            this.label13.Size = new System.Drawing.Size(15, 13);
             this.label13.TabIndex = 50;
             this.label13.Text = "※";
             // 
@@ -450,18 +475,19 @@
             // 
             this.label14.AutoSize = true;
             this.label14.ForeColor = System.Drawing.Color.Red;
-            this.label14.Location = new System.Drawing.Point(150, 63);
+            this.label14.Location = new System.Drawing.Point(112, 55);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(22, 15);
+            this.label14.Size = new System.Drawing.Size(15, 13);
             this.label14.TabIndex = 51;
             this.label14.Text = "※";
             // 
             // StudentInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Turquoise;
-            this.ClientSize = new System.Drawing.Size(932, 603);
+            this.ClientSize = new System.Drawing.Size(699, 523);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
@@ -488,6 +514,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "StudentInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StudentInfo";

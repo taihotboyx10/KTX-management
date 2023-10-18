@@ -30,7 +30,7 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StaffList));
-            this.dgvStudent = new System.Windows.Forms.DataGridView();
+            this.dgvStaff = new System.Windows.Forms.DataGridView();
             this.btnClose = new Guna.UI2.WinForms.Guna2Button();
             this.label2 = new System.Windows.Forms.Label();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,13 +41,13 @@
             this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvStudent)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvStaff)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgvStudent
+            // dgvStaff
             // 
-            this.dgvStudent.AllowUserToAddRows = false;
-            this.dgvStudent.BackgroundColor = System.Drawing.SystemColors.Info;
+            this.dgvStaff.AllowUserToAddRows = false;
+            this.dgvStaff.BackgroundColor = System.Drawing.SystemColors.Info;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.LimeGreen;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("MS UI Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
@@ -55,9 +55,10 @@
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvStudent.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvStudent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvStudent.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvStaff.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvStaff.ColumnHeadersHeight = 35;
+            this.dgvStaff.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dgvStaff.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column9,
             this.Column10,
             this.Column11,
@@ -66,16 +67,16 @@
             this.Column14,
             this.Column16,
             this.Column1});
-            this.dgvStudent.EnableHeadersVisualStyles = false;
-            this.dgvStudent.GridColor = System.Drawing.Color.LimeGreen;
-            this.dgvStudent.Location = new System.Drawing.Point(12, 90);
-            this.dgvStudent.Name = "dgvStudent";
-            this.dgvStudent.ReadOnly = true;
-            this.dgvStudent.RowHeadersVisible = false;
-            this.dgvStudent.RowHeadersWidth = 51;
-            this.dgvStudent.RowTemplate.Height = 24;
-            this.dgvStudent.Size = new System.Drawing.Size(906, 500);
-            this.dgvStudent.TabIndex = 80;
+            this.dgvStaff.EnableHeadersVisualStyles = false;
+            this.dgvStaff.GridColor = System.Drawing.Color.LimeGreen;
+            this.dgvStaff.Location = new System.Drawing.Point(12, 90);
+            this.dgvStaff.Name = "dgvStaff";
+            this.dgvStaff.ReadOnly = true;
+            this.dgvStaff.RowHeadersVisible = false;
+            this.dgvStaff.RowHeadersWidth = 51;
+            this.dgvStaff.RowTemplate.Height = 24;
+            this.dgvStaff.Size = new System.Drawing.Size(907, 500);
+            this.dgvStaff.TabIndex = 80;
             // 
             // btnClose
             // 
@@ -95,6 +96,7 @@
             this.btnClose.Size = new System.Drawing.Size(101, 39);
             this.btnClose.TabIndex = 79;
             this.btnClose.Text = "Close";
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // label2
             // 
@@ -116,7 +118,7 @@
             this.Column9.MinimumWidth = 6;
             this.Column9.Name = "Column9";
             this.Column9.ReadOnly = true;
-            this.Column9.Width = 140;
+            this.Column9.Width = 150;
             // 
             // Column10
             // 
@@ -179,6 +181,7 @@
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
+            this.Column1.Width = 125;
             // 
             // StaffList
             // 
@@ -186,12 +189,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LimeGreen;
             this.ClientSize = new System.Drawing.Size(932, 603);
-            this.Controls.Add(this.dgvStudent);
+            this.Controls.Add(this.dgvStaff);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label2);
             this.Name = "StaffList";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StaffList";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvStudent)).EndInit();
+            this.Load += new System.EventHandler(this.StaffList_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvStaff)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,7 +204,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgvStudent;
+        private System.Windows.Forms.DataGridView dgvStaff;
         private Guna.UI2.WinForms.Guna2Button btnClose;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;

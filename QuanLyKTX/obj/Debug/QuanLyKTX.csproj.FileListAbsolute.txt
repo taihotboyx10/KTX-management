@@ -23,3 +23,27 @@ C:\Users\Nguyen Du Tai\source\repos\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.Staf
 C:\Users\Nguyen Du Tai\source\repos\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.StaffSalary.resources
 C:\Users\Nguyen Du Tai\source\repos\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.StaffLeave.resources
 C:\Users\Nguyen Du Tai\source\repos\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.StaffList.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\bin\Debug\QuanLyKTX.exe.config
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\bin\Debug\QuanLyKTX.exe
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\bin\Debug\QuanLyKTX.pdb
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\bin\Debug\Guna.UI2.dll
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.StaffInfo.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.DashBoard.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.RoomFee.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.RoomManagement.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.Login.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.RoomStatus.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.StaffSalary.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.StaffUpdate.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.StudentInfo.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.StudentLeave.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.StudentUpdate.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.Properties.Resources.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.StaffLeave.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.StaffList.resources
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.CopyComplete
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.exe
+C:\Users\HP\source\repos\KTX-management\QuanLyKTX\obj\Debug\QuanLyKTX.pdb

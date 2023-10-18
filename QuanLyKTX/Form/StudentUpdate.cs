@@ -200,7 +200,8 @@ namespace QuanLyKTX
 
                 // Thêm lại roomNo hiện tại(vì đã bị xóa hết bởi (*)) 
                 cboRoomNo.Items.Add(temp);
-                cboRoomNo.Text = temp;
+                cboRoomNo.SelectedItem = temp;
+                roomNoWG = temp;
             }
 
             //searchedWG = false;

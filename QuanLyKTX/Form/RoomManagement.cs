@@ -18,6 +18,8 @@ namespace QuanLyKTX
         string query;
         int status;
 
+        //Biến cờ xác nhận đã chọn nhân viên
+        bool searchedWG;
 
         public RoomManagement()
         {
@@ -48,7 +50,7 @@ namespace QuanLyKTX
             }
             else if(!rbtAction1.Checked && !rbtNotAction1.Checked)
             {
-                MessageBox.Show("Chọn trạng thái có thể cho thuê trước khi thêm phòng", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Chọn trạng thái trước khi thêm phòng", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -102,18 +104,61 @@ namespace QuanLyKTX
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            query = "select * from rooms where roomNo = " + txtRoomNum2.Text + ";";
-            DataSet dataSet = new DataSet();
-            dataSet = managementSQLConn.GetData(query);
-
-            if (dataSet.Tables[0].Rows.Count > 0)
+            if (string.IsNullOrEmpty(txtRoomNum2.Text))
             {
-                dgvListRoom.DataSource = dataSet.Tables[0];
+                MessageBox.Show("Vui lòng nhập số phòng trước khi tìm kiếm", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtRoomNum2.Focus();
             }
             else
             {
-                lblText2.Text = "Phòng không tồn tại";
-                lblText2.Visible = true;
+                query = "select * from rooms where roomNo = " + txtRoomNum2.Text + ";";
+                DataSet dataSet = managementSQLConn.GetData(query);
+
+                if (dataSet.Tables[0].Rows.Count > 0)
+                {
+                    searchedWG = true;
+                    lblText2.Visible = false;
+
+                    if (Convert.ToInt32(dataSet.Tables[0].Rows[0]["roomStatus"]) == 1)
+                    {
+                        rbtAction2.Checked = true;
+                    }
+                    else
+                    {
+                        rbtNotAction2.Checked = true;
+                    }
+
+                    dgvListRoom.DataSource = dataSet.Tables[0];
+                }
+                else
+                {
+                    lblText2.Text = "Phòng không tồn tại";
+                    lblText2.Visible = true;
+                }
+            }
+            
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            if(searchedWG == true)
+            {
+                if (rbtAction2.Checked)
+                {
+                    status = 1;
+                }
+                if (rbtNotAction2.Checked)
+                {
+                    status = 0;
+                }
+                query = "update rooms set roomStatus = '" + status + "' where roomNo = " + txtRoomNum2.Text + ";";
+                managementSQLConn.SetData(query, "Cập nhật thành công");
+                RoomManagement_Load(this, null);
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn phòng trước khi cập nhật", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtRoomNum2.Focus();
             }
         }
 
@@ -123,16 +168,38 @@ namespace QuanLyKTX
             //{
             //    MessageBox.Show("Chon phong ban muon xoa", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
             //}
-            var result = MessageBox.Show("Bạn có muốn xóa phòng này không?","Cảnh báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            if(result == DialogResult.OK)
+            if(searchedWG == true)
             {
-                string roomNoToDelete = dgvListRoom.SelectedRows[0].Cells["roomNo"].Value.ToString();
-                string query = "DELETE FROM rooms WHERE roomNo = " + roomNoToDelete;
+                var result = MessageBox.Show("Bạn có muốn xóa phòng này không?", "Cảnh báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if (result == DialogResult.OK)
+                {
+                    //Trước khi xóa kiểm tra xem phòng này đang có sinh viên ở hay không
+                    List<string> roomExist = managementSQLConn.GetRoomNoList("select roomNo from newStudent;");
+                    if (roomExist.Contains(txtRoomNum2.Text))
+                    {
+                        MessageBox.Show("Phòng có sinh viên đang ở nên không thể xóa", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    else
+                    {
+                        //string roomNoToDelete = dgvListRoom.SelectedRows[0].Cells["roomNo"].Value.ToString();
+                        query = "DELETE FROM rooms WHERE roomNo = " + txtRoomNum2.Text;
 
-                managementSQLConn.SetData(query, "Xóa phòng thành công");
-                //RoomManagement_Load(this, null);
-                dgvListRoom.Rows.RemoveAt(dgvListRoom.SelectedRows[0].Index);
+                        managementSQLConn.SetData(query, "Xóa phòng thành công");
+                        //RoomManagement_Load(this, null);
+                        dgvListRoom.Rows.RemoveAt(dgvListRoom.SelectedRows[0].Index);
+
+                        searchedWG = false;
+                        txtRoomNum2.Text = "";
+                    }
+                    
+                }
             }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn phòng trước khi xóa", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtRoomNum2.Focus();
+            }
+
         }
 
         private void dgvListRoom_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -150,21 +217,6 @@ namespace QuanLyKTX
                 rbtNotAction2.Checked = true;
             }
 
-        }
-
-        private void btnUpdate_Click(object sender, EventArgs e)
-        {
-            if (rbtAction2.Checked) 
-            {
-                status = 1;
-            }
-            if (rbtNotAction2.Checked)
-            {
-                status = 0;
-            }
-            query = "update rooms set roomStatus = '" + status + "' where roomNo = " + txtRoomNum2.Text + ";";
-            managementSQLConn.SetData(query, "Cập nhật thành công");
-            RoomManagement_Load(this, null);
         }
 
         private void btnClose_Click(object sender, EventArgs e)
